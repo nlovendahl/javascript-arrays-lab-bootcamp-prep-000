@@ -28,7 +28,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  var evenMoreKittens = kittens.unshift(name);
+  var evenMoreKittens = [...name, kittens];
   return evenMoreKittens;
 }
 
