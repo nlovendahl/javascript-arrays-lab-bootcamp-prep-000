@@ -36,3 +36,8 @@ function removeLastKitten(name) {
   lessKittens = kittens.pop(name);
   return lessKittens;
 }
+
+function removeFirstKitten(name) {
+  evenLessKittens = kittens.shift(name);
+  return evenLessKittens;
+}
