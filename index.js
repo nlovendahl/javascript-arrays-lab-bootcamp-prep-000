@@ -26,3 +26,8 @@ function appendKitten(name) {
   moreKittens = kittens.push(name);
   return moreKittens;
 }
+
+function prependKitten(name) {
+  moreKittens = kittens.unshift(name);
+  return moreKittens;
+}
