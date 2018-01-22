@@ -28,6 +28,11 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  moreKittens = kittens.unshift(name);
-  return moreKittens;
+  evenMoreKittens = kittens.unshift(name);
+  return evenMoreKittens;
+}
+
+function removeLastKitten(name) {
+  lessKittens = kittens.pop(name);
+  return lessKittens;
 }
